@@ -36,6 +36,7 @@ fieldset {
 #content {
   border-color: transparent;
   background-color: #66757F;
+  display: inline-block;
 }
 
 li {
@@ -58,11 +59,22 @@ button, input {
   overflow: visible;
 }
 
+figcaption {
+  padding-bottom: 1.333333em; /*24 /18 =1.333333 */
+  color:white;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 30%;
+}
+
 
 footer {
-  position: absolute;
-  bottom: 0;
-  height: 2.5rem;
+  margin-top: 10em;
+  text-align:left;
   color: #E1E8ED;
 }
 
