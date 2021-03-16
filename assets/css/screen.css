@@ -63,6 +63,7 @@ footer {
   position: absolute;
   bottom: 0;
   height: 2.5rem;
+  color: #E1E8ED;
 }
 
 @media screen and (min-width: 12.6em) {
