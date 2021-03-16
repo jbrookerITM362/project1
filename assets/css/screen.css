@@ -1,1 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap");
+/*@import url("//basehold.it/24");*/
 
+html {
+  font-family: Merriweather, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
+  background: #BEBEBE;
+  line-height: 1.55555em; /*28 /18 =1.55555em */
+  padding: 1.55555em; /*28 /18 =1.55555em */
+  font-size: 1.125em;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.666667em; /*30 /18 =1.666667em */
+  padding-bottom: 1.333333em; /*24 /18 =1.333333 */
+  text-align: center;
+  font-weight: bold;
+}
+
+fieldset {
+  border-color: transparent;
+  width: 1%;
+}
+
+#content {
+  border-color: transparent;
+  background-color: #808080;
+}
+
+li {
+  padding-bottom: 1em; /*18 /18 =1em */
+}
+
+label {
+  display: block;
+  padding-bottom: 0.25em;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+button, input {
+  font-family: Merriweather, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
+  border-color: transparent;
+  background-color: #DCDCDC;
+  overflow: visible;
+}
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 2.5rem;
+}
+
+@media screen and (min-width: 12.6em) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  html {
+    font-size: 65%;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 24.8em) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  html {
+    font-size: 100%;
+  }
+}
+
+
+@media screen and (min-width: 55.555556em) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 200%;
+  }
+}
