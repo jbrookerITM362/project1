@@ -3,7 +3,7 @@
 
 html {
   font-family: Merriweather, "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
-  background: #BEBEBE;
+  background: #292F33;
   line-height: 1.55555em; /*28 /18 =1.55555em */
   padding: 1.55555em; /*28 /18 =1.55555em */
   font-size: 1.125em;
@@ -15,16 +15,17 @@ h1 {
   padding-bottom: 1.333333em; /*24 /18 =1.333333 */
   text-align: center;
   font-weight: bold;
+  border-color: #66757F;
 }
 
 fieldset {
   border-color: transparent;
-  width: 1%;
+  color: #E1E8ED;
 }
 
 #content {
   border-color: transparent;
-  background-color: #808080;
+  background-color: #66757F;
 }
 
 li {
@@ -36,6 +37,7 @@ label {
   padding-bottom: 0.25em;
   text-align: center;
   font-weight: bold;
+  text-decoration: underline;
   margin-top: 1em;
 }
 
