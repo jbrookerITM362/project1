@@ -12,10 +12,20 @@ html {
 h1 {
   font-family: 'Roboto Slab', serif;
   font-size: 1.666667em; /*30 /18 =1.666667em */
-  padding-bottom: 1.333333em; /*24 /18 =1.333333 */
+  padding-top: 1em;
+  padding-bottom: 1em;
   text-align: center;
   font-weight: bold;
   border-color: #66757F;
+}
+
+h2 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1em;
+  background: #55ACEE;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 fieldset {
