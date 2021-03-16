@@ -78,6 +78,19 @@ footer {
   color: #E1E8ED;
 }
 
+@media screen and (min-width: 6.2em) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  html {
+    font-size: 40%;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
 @media screen and (min-width: 12.6em) {
   #wrap {
     display: inline-block;
