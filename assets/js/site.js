@@ -11,5 +11,4 @@ form.onsubmit = submit;
 function submit(event) {
   success.removeAttribute('hidden');
 
-  event.preventDefault(); //This stops it from actually submitting data.
 }
