@@ -6,5 +6,5 @@ jQuery(function($) {
 
 /*button submit */
 function mySubmission() {
-  alert('Thank you, our newsletter will be sent to your email shortly. Save the whales!');
+  alert('Thank you for signing this petition, share with your friends to help save the whales!');
 }
